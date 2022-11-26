@@ -1,4 +1,5 @@
-## freelancer-helper-cracked
+## Freelancer Help Cracked 
+https://chrome.google.com/webstore/detail/freelancer-helper/hekceblplbphdfpmofgnpccibieilafn?hl=en
 Freelancer.com No.1 extension with cracked. This extension makes using freelancer.com an easier and less frustrating experience. Hopefully it will save you lots of time and stress. Enjoy Freelancing.
 
 Improvements for freelancer.com. Hiding projects by country, showing employer details...
