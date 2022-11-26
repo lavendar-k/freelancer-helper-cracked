@@ -1,10 +1,10 @@
-# freelancer-helper-cracked
+## freelancer-helper-cracked
 Freelancer.com No.1 extension with cracked. This extension makes using freelancer.com an easier and less frustrating experience. Hopefully it will save you lots of time and stress. Enjoy Freelancing.
 
 Improvements for freelancer.com. Hiding projects by country, showing employer details...
 This extension makes using freelancer.com an easier and less frustrating experience. Hopefully it will save you lots of time and stress.
 
-# All Features are cracked :
+## All Features are cracked :
 - Show employer name and link to their profile on each project.
 - Let you view employer reviews on employer profile.
 
