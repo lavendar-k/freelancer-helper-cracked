@@ -1,0 +1,426 @@
+html {
+    margin:0;
+    padding: 0;
+    font-size: 25px;
+    background: #f0f9ff;
+    /* overflow-y: hidden; */
+    /* width: 100%; */
+    /* height: 545px; */
+}
+
+body {
+    /* width: 412px; */
+    padding: 0;
+    margin: 0;
+}
+
+.neutral-link {
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+.neutral-link:visited {
+    color: inherit;
+}
+
+.neutral-button {
+    background: none;
+    border: none;
+    outline: none;
+    color: inherit;
+    font: inherit;
+}
+
+.freelancer-helper-wrapper {
+    width: 412px;
+}
+
+.main-sections {
+    /* max-width: 700px; */
+    width: 90%;
+    margin: auto;
+    /* border-top: 1px solid black; */
+    /* padding: 0 30px 15px 30px; */
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.loader-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.main-sections header {
+    /* margin: auto; */
+    /* text-align: center; */
+    margin: 10px auto 15px 0;
+    position: relative;
+    width: max-content;
+}
+
+.main-sections header:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    bottom: -10px;
+    /* margin: 0 auto; */
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(159, 206, 233);
+}
+
+.small-section {
+    padding-top: 10px;
+}
+
+.explanation {
+    font-size: 0.6rem;
+    cursor: help;
+}
+
+#open_attachments_label {
+    cursor: pointer;
+}
+
+#open_attachments {
+    transform: scale(1.2);
+}
+
+.results-per-page-count {
+    color: #0075ff;
+    font-size: 0.6rem;
+}
+
+.results-per-page-input-container {
+    margin-top: 10px;
+}
+
+#results-per-page {
+    width: 350px;
+}
+
+.results-per-page-note {
+    cursor: help;
+}
+
+.max-bids-count {
+    color: #0075ff;
+    font-size: 0.6rem;
+}
+
+.max-bids-input-container {
+    margin-top: 10px;
+}
+
+#max-bids {
+    width: 350px;
+}
+
+.highlight {
+    
+}
+
+.note {
+    font-style: italic;
+    font-size: 0.6rem;
+    margin-top: 6px;
+}
+
+/* fixing tagify bug or smth */
+.tagify tag>div::before{
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 20px #e5e5e5 inset;
+    z-index: -1;
+    pointer-events: none;
+    transition: 120ms ease;
+    animation: .3s tags--bump 1 ease-out
+}
+
+.tagify tag:hover:not([readonly]) div::before{
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    box-shadow: 0 0 0 20px #d3e2e2 inset;
+}
+
+/* can't find a way to add a class to the generated tagify container */
+.tagify {
+    width: 350px;
+    font-size: 0.6rem;
+    background: white;
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+/*
+    TABS
+*/
+.tabs-container {
+    margin-top: 3px;
+}
+
+.tab-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #425A70;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0 8px;
+    margin: 0 4px;
+    height: 28px;
+    line-height: 28px;
+    letter-spacing: 0;
+    outline: none;
+}
+
+.tab-link:first-child {
+    margin-left: 3px;
+}
+
+.tab-link:not(.tab-disabled):hover {
+    background-color: rgba(67, 90, 111, 0.06);
+}
+
+.tab-link:not(.tab-disabled):active {
+    background-color: rgba(16, 112, 202, 0.09);
+    color: #1070ca;
+}
+
+.tab-link:not(.tab-disabled):focus {
+    box-shadow: 0 0 0 2px rgba(16, 112, 202, 0.3);
+}
+
+.tab-link.tab-active {
+    background-color: rgba(16, 112, 202, 0.09);
+    color: #1070ca;
+    cursor: default;
+    pointer-events: none;
+}
+
+.tab-link.tab-disabled {
+    cursor: not-allowed;
+    background-color:#d6d6d6;
+    color: #717171;
+}
+
+/*
+    ACCOUNT PAGE
+*/
+.account-page-wrapper {
+
+}
+
+.account-main-container {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.account-main-container > * {
+    margin-bottom: 10px;
+}
+
+.account-status-info {
+    
+}
+
+.tier-info-note {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.long-tier-info-note {
+    text-align: left;
+}
+
+.better-premium-features-container {
+    text-align: left;
+}
+
+.better-premium-features-heading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.premium-feature-container {
+    margin: 10px 0;
+}
+
+.premium-feature-heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.premium-feature-explanation {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.premium-feature-image {
+    display: block;
+    margin: auto;
+}
+
+.login-to-google-image {
+    cursor: pointer;
+}
+
+.logout-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout-button {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 4px 13px;
+    transition: all 150ms linear;
+    outline: none;
+    background: #4a8df8;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    /* transform: scale(1.05); */
+}
+
+.paypal-iframe {
+    border: none;
+    width: 86%;
+    height: 230px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/*
+    LINEAR LOADER
+*/
+.progress {
+    position: relative;
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color:rgba(74, 141, 248, 0.404);
+    border-radius: 2px;
+    background-clip: padding-box;
+    margin: 0;
+    overflow: hidden;
+}
+
+.progress .indeterminate {
+    background-color:#4a8df8;
+}
+
+.progress .indeterminate:before {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+    animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+}
+
+.progress .indeterminate:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    will-change: left, right;
+    -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+    -webkit-animation-delay: 1.15s;
+    animation-delay: 1.15s;
+}
+
+@-webkit-keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%;
+    }
+    60% {
+        left: 100%;
+        right: -90%;
+    }
+    100% {
+        left: 100%;
+        right: -90%;
+    }
+}
+
+@keyframes indeterminate {
+    0% {
+        left: -35%;
+        right: 100%;
+    }
+    60% {
+        left: 100%;
+        right: -90%;
+    }
+    100% {
+        left: 100%;
+        right: -90%;
+    }
+}
+
+@-webkit-keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%;
+    }
+    60% {
+        left: 107%;
+        right: -8%;
+    }
+    100% {
+        left: 107%;
+        right: -8%;
+    }
+}
+
+@keyframes indeterminate-short {
+    0% {
+        left: -200%;
+        right: 100%;
+    }
+    60% {
+        left: 107%;
+        right: -8%;
+    }
+    100% {
+        left: 107%;
+        right: -8%;
+    }
+}
