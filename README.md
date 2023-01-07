@@ -1,5 +1,14 @@
-## Freelancer Help Cracked 
-### https://chrome.google.com/webstore/detail/freelancer-helper/hekceblplbphdfpmofgnpccibieilafn?hl=en
+## Freelancer Help Cracked
+
+<div align="center" style="display: flex;"> 
+  <img alt="Stars" src="https://img.shields.io/github/stars/oscaryang-k/freelancer-helper-cracked?style=for-the-badge">
+  <img alt="Forks" src="https://img.shields.io/github/forks/oscaryang-k/freelancer-helper-cracked?style=for-the-badge">
+  <img alt="Issues" src="https://img.shields.io/github/issues/oscaryang-k/freelancer-helper-cracked?style=for-the-badge">
+  <img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/oscaryang-k/freelancer-helper-cracked?style=for-the-badge">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/oscaryang-k/freelancer-helper-cracked?style=for-the-badge">
+</div>
+
+### [Chrome Extension](https://chrome.google.com/webstore/detail/freelancer-helper/hekceblplbphdfpmofgnpccibieilafn?hl=en)
 Freelancer.com No.1 extension with cracked. This extension makes using freelancer.com an easier and less frustrating experience. Hopefully it will save you lots of time and stress. Enjoy Freelancing.
 
 Improvements for freelancer.com. Hiding projects by country, showing employer details...
